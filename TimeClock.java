@@ -11,6 +11,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class TimeClock extends View {
+
+/**
+
+
+System.out.println("MyBatis");
+11：24 我修改了代码
+
+*/
     //外圆画笔
     private Paint paint;
     //文字画笔
