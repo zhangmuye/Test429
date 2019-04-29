@@ -1,4 +1,4 @@
-package com.yyzy.advancedapplication;
+﻿package com.yyzy.advancedapplication;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -26,6 +26,8 @@ public class TimeClock extends View {
     //外圆半径
     private int r;
 
+    //定义了一个全局变量
+    private int num = 2;
     public TimeClock(Context context) {
         super(context);
         initPaint();
